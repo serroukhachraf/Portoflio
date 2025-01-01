@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.17 156.82">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 77.63px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #39b54a;
+        font-family: Consolas, Consolas;
+      }
+
+      .cls-2 {
+        font-size: 94.62px;
+      }
+
+      .cls-3 {
+        font-size: 52.37px;
+      }
+
+      .cls-4 {
+        font-size: 139.85px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-4" transform="translate(0 114.55)"><tspan x="0" y="0">A</tspan></text>
+    <text class="cls-2" transform="translate(94.38 98.82) rotate(-176.17) scale(1 -1)"><tspan x="0" y="0">/</tspan></text>
+    <text class="cls-1" transform="translate(102.03 92.54) rotate(-176.96) scale(1 -1)"><tspan x="0" y="0">/</tspan></text>
+    <text class="cls-3" transform="translate(104.9 83.94) rotate(-176.96) scale(1 -1)"><tspan x="0" y="0">/</tspan></text>
+  </g>
+</svg>
