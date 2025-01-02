@@ -6,6 +6,7 @@
     <title>Cyber Heaven - Achraf</title>
     <link href="./styles/output.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./main.js"></script>
     <style>
         /* Hide mobile menu by default */
         #mobile-menu {
@@ -54,39 +55,26 @@
                 </ul>
             </div>
             <!-- Contact-Me -->
-            <div class="flex-end my-7">
-                <Button id="desktop-contact" class="btn-primary">Contact Me</Button>
+            <div class="flex-end my-5">
+                <Button id="desktop-contact" class="btn-primary"><a href="./pages/contact.html" target="_self">Contact Me</a></Button>
             </div>
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="fixed inset-0 w-full h-full bg-gray-900 text-green-500 z-50 flex items-center justify-center">
                 <button id="close-menu" class="absolute top-5 right-5 text-7xl text-green-500 hover:text-green-700">&times;</button>
-                <ul class="space-y-6 text-center my-12">
+                <ul class="space-y-6 text-center my-80">
                     <li><a href="./index.html" class="text-2xl hover:text-green-700">Home</a></li>
                     <li><a href="#" class="text-2xl hover:text-green-700">About</a></li>
                     <li><a href="#" class="text-2xl hover:text-green-700">Projects</a></li>
-                    <li><button class="btn-primary mt-4 px-4 py-2 bg-green-500 text-gray-900 rounded hover:bg-green-700">Contact Me</button></li>
+                    <li><button class="btn-primary mt-4 px-4 py-2 bg-green-500 text-gray-900 rounded hover:bg-green-700"><a href="./pages/contact.html" target="_self">Contact Me</a></button></li>
                 </ul>
             </div>
         </nav>
-
-        
     </header>
-    <script>
-          $(document).ready(function () {
-            // Open mobile menu
-            $('#menu-toggle').click(function () {
-                $('#mobile-menu').removeClass('hidden').fadeIn(); // Show mobile menu
-                $('#menu-toggle').addClass('hidden'); // Hide hamburger button
-            });
-
-            // Close mobile menu
-            $('#close-menu').click(function () {
-                $('#mobile-menu').fadeOut(function () {
-                    $(this).addClass('hidden'); // Hide mobile menu
-                    $('#menu-toggle').removeClass('hidden'); // Show hamburger button
-                });
-            });
-        });;
-    </script>
+    <!-- Animated Text With Name -->
+    <main class="flex items-center justify-center h-full my-80  bg-gray-900">
+        <div class="text-green-500 text-3xl uppercase text-center">
+            <p class="text-shadow" id="typed-text"></p>
+        </div>
+    </main>    
 </body>
 </html>

@@ -1,0 +1,9 @@
+    <!-- Skills -->
+    <h1 class="text-green-500 mx-10 text-2xl">&lt; Skills /&gt;</h1>
+    <section class="bg-green-500 mx-auto my-12 w-4/5 h-80 rounded-lg p-6">
+        <!-- Card 1 -->
+        <div class="bg-gray-900 text-center p-6 w-44 h-56 rounded-lg shadow-lg flex flex-col items-center justify-center space-y-2">
+            <img src="./Assets/SVG/python.svg" alt="Python" class="w-16 h-16 mt-4">
+            <p class="text-white text-lg font-semibold">PYTHON</p>
+        </div>
+    </section>
